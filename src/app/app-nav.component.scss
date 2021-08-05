@@ -1,5 +1,5 @@
-  
 :host {
+    background: #2A9FBC; 
     border-radius: 0.5em;
     display: block; 
     margin: 1.5em 0; 
@@ -13,22 +13,12 @@ ul {
     padding: 0;
 }
 
-a {
-    color: #fff; 
+:host ul ::ng-deep a {
+    color: #fff;
     padding: 0 1em; 
     text-decoration: none;
 }
 
-a:hover {
+:host ul ::ng-deep a:hover {
     text-decoration: underline;
-}
-
-// Colors
-// ________________________________________________________
-:host(.color--01) {
-    background: #675BA7; 
-}
-
-:host(.color--02) {
-    background: #2A9FBC; 
 }
